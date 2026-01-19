@@ -1,6 +1,6 @@
 {
   "name": "capacitor-critical-alerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capacitor plugin for iOS Critical Alerts permission",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -45,10 +45,10 @@
     "publish:cocoapod": "pod trunk push ./CapacitorCriticalAlerts.podspec --allow-warnings"
   },
   "devDependencies": {
-    "@capacitor/android": "^8.0.0",
-    "@capacitor/cli": "^8.0.0",
-    "@capacitor/core": "^8.0.0",
-    "@capacitor/ios": "^8.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
